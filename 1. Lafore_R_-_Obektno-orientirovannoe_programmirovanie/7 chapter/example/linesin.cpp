@@ -1,0 +1,18 @@
+﻿#include <iostream>
+
+using namespace std;
+
+const int MAX = 2000;
+char str[MAX];
+
+int main()
+{
+	setlocale(LC_ALL, "RUS");
+
+	cout << "\nВведите строку: ";
+	cin.get(str, MAX, '$');
+
+	cout << "Вы ввели:\n" << str << endl;
+
+	return 0;
+}
